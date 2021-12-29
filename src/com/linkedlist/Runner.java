@@ -14,6 +14,7 @@ public class Runner {
 		mylinkedlist.print();
 		mylinkedlist.addbyindex(mylinkedlist.head,2,30);
 		mylinkedlist.print();
-	
+		mylinkedlist.deleteFirst();
+		mylinkedlist.print();
 	}
 }
