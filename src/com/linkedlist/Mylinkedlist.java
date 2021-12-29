@@ -157,10 +157,10 @@ public class Mylinkedlist {
 		}
 	}
 
-	public void search(int data) {
+	public boolean search(int data) {
 			if(head==null) 
 			{
-				return;
+				return false;
 			}
 			
 			int index = 0;
@@ -169,11 +169,11 @@ public class Mylinkedlist {
 			{
 				if(temp.data==data) 
 				{
-					return;
+					return true;
 				}
 				temp=temp.next;
 				index++;
 			}
-			return;
+			return true;
 	}
 }

@@ -14,7 +14,8 @@ public class Runner {
 		mylinkedlist.print();
 		mylinkedlist.addbyindex(mylinkedlist.head,2,30);
 		mylinkedlist.print();
-		mylinkedlist.deleteLast();
+		mylinkedlist.search(30);
+		System.out.println(mylinkedlist.search(30));
 		mylinkedlist.print();
 	}
 }
