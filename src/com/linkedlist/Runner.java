@@ -8,11 +8,11 @@ public class Runner {
 		Mylinkedlist mylinkedlist = new Mylinkedlist();
 		
 		mylinkedlist.print();
-		mylinkedlist.addLast(56);
+		mylinkedlist.addFirst(70);
 		mylinkedlist.print();
-		mylinkedlist.addLast(30);
+		mylinkedlist.addFirst(30);
 		mylinkedlist.print();
-		mylinkedlist.addLast(70);
+		mylinkedlist.addFirst(56);
 		mylinkedlist.print();
 		
 	
