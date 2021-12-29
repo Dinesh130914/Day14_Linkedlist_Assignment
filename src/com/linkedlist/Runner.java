@@ -15,7 +15,7 @@ public class Runner {
 		mylinkedlist.addbyindex(mylinkedlist.head,2,30);
 		mylinkedlist.print();
 		mylinkedlist.search(30);
-		System.out.println(mylinkedlist.search(30));
+		mylinkedlist.addbyindex(mylinkedlist.head,3,40);
 		mylinkedlist.print();
 	}
 }
