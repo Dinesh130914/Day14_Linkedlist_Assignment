@@ -11,5 +11,9 @@ public class Stack {
 		mylinkedlist.print();
 		mylinkedlist.addFirst(56);
 		mylinkedlist.print();
+		mylinkedlist.deleteLast();
+		mylinkedlist.print();
+		mylinkedlist.deleteLast();
+		mylinkedlist.print();
 	}
 }
